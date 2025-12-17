@@ -1,0 +1,44 @@
+/* ===== GLOBAL COLORS ===== */
+.root {
+    -fx-font-family: "Segoe UI";
+    -fx-background-color: #1e1e1e;
+}
+
+/* ===== LABELS ===== */
+.label {
+    -fx-text-fill: #f5f5f5;
+}
+
+/* ===== TITLES ===== */
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f2b705; /* gold minier */
+}
+
+/* ===== TEXT FIELDS ===== */
+.text-field, .password-field {
+    -fx-background-color: #2a2a2a;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #aaaaaa;
+    -fx-border-color: #444;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.form-field{
+    -fx-pref-width:300;
+    -fx-max-width:300;
+}
+
+/* ===== BUTTONS ===== */
+.button {
+    -fx-background-color: #f2b705;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+}
+
+.button:hover {
+    -fx-background-color: #d9a404;
+}

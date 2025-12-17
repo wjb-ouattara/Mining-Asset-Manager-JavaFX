@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.mining.miningassetmanager.controllers.LoginController"
+            stylesheets="@../css/global.css"
+            prefWidth="900" prefHeight="600">
+
+    <VBox spacing="15" alignment="CENTER"
+          AnchorPane.topAnchor="0"
+          AnchorPane.bottomAnchor="0"
+          AnchorPane.leftAnchor="0"
+          AnchorPane.rightAnchor="0">
+
+        <Label text="Mining Asset Manager" styleClass="title"/>
+
+        <TextField fx:id="emailField" promptText="Email" styleClass="form-field"/>
+        <PasswordField fx:id="passwordField" promptText="Mot de passe" styleClass="form-field"/>
+
+        <Button text="Se connecter" onAction="#handleLogin"/>
+
+    </VBox>
+</AnchorPane>
